@@ -1,0 +1,1271 @@
+/** Notice CSS **/
+.notice-transferito-title {
+    margin-bottom: 0.4em;
+    font-size: 1.2em;
+}
+
+.notice-base-transferito {
+    /*border-left-color: #2a77ff;*/
+    margin-top: 25px!important;
+}
+
+/** Form CSS **/
+
+.transferito__cpanel-form {
+    width: 600px;
+}
+
+.transferito-setting_form .form-table {
+    margin-bottom: 20px;
+}
+
+.transferito-setting_form .form-table th {
+    width: 130px;
+    padding-top: 24px;
+    padding-bottom: 0;
+}
+
+.transferito-setting_form .form-table td {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.transferito-input {
+    width: 100%;
+    max-width: 500px;
+    font-weight: normal;
+    height: 35px!important;
+    padding: 5px 10px!important;
+}
+
+.transferito-input__select {
+    width: 100%;
+    max-width: 100%!important;
+    font-size: 17px!important;
+}
+
+.transferito-input--large {
+    width: 100%;
+    max-width: 100%;
+    height: auto!important;
+    font-size: 18px;
+    text-align: center;
+    padding: 9px!important;
+    font-weight: 500;
+}
+
+.transferito-input--large::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #dedede;
+}
+.transferito-input--large::-moz-placeholder { /* Firefox 19+ */
+    color: #dedede;
+}
+.transferito-input--large:-ms-input-placeholder { /* IE 10+ */
+    color: #dedede;
+}
+.transferito-input--large:-moz-placeholder { /* Firefox 18- */
+    color: #dedede;
+}
+
+
+.transferito-input--error::after {
+    content: 'REQUIRED';
+    position: relative;
+    float: right;
+    right: 55px;
+    height: auto;
+    background: red;
+    padding: 5px 13px;
+    color: white;
+    margin-top: -40px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.transferito-input__info {
+    border: 1px solid #cecece;
+    background: #f2f2f2;
+    padding: 12px 10px;
+    margin-left: 1px;
+    max-width: 478px;
+    margin-bottom: -1px;
+    font-weight: 500;
+    color: #616161ce;
+}
+
+.transferito-input__info--error {
+    background: #ffe0de;
+    color: red;
+    border: 1px solid red;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.transferito-input__holder {
+    position: relative;
+}
+
+.transferito-input__info--larger-row.transferito-input--error::after {
+    margin-top: -98px;
+}
+
+.transferito-input__info--push-down-row.transferito-input--error::after {
+    margin-top: -14px;
+    height: 16px;
+    right: 92px;
+}
+
+.transferito-input--disabled {
+    background: #f1f1f1!important;
+}
+
+.transferito-checkbox_label {
+    margin-top: 11px!important;
+    display: block;
+}
+.transferito-checkbox {
+    margin-right: 8px!important;
+}
+
+.transfer-block {
+    width: 100%;
+}
+
+.transferito__block--center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transferito__block--align {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.separate-block-line {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.separate-block-line--top {
+    border-top: 1px solid #f1f1f1;
+    padding: 20px 0 10px;
+}
+
+.transfer-block h2 {
+    margin-bottom: 0;
+}
+
+.transfer-block p {
+    margin-top: 8px;
+}
+
+.selected-folder-container {
+    width: 350px;
+    background: #fefefe;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    margin-left: 29px;
+    border-radius: 4px;
+}
+
+.selected-folder-container.white-block {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.selected-folder-container.transfer-progress-block {
+    margin: 100px auto 0 auto;
+    width: 80%;
+    max-width: 450px!important;
+}
+
+.selected-folder-container.migration-overview {
+    width: 350px;
+    padding: 0;
+}
+
+.selected-folder-container.migration-screen {
+    width: 600px;
+}
+
+@media screen and (min-width: 1075px) and (max-width: 1200px) {
+    .selected-folder-container.migration-overview {
+        width: 300px;
+    }
+
+    .selected-folder-container.migration-screen {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 1075px) and (max-width: 1200px) {
+    .selected-folder-container.migration-overview {
+        width: 300px;
+    }
+
+    .selected-folder-container.migration-screen {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .transferito__col--full.transferito__col--full-more-padding.transferito__col--directory-selector {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .transferito__block--align {
+        flex-direction: column;
+    }
+
+    .selected-folder-container.migration-overview {
+        width: 550px;
+        margin-left: 0;
+    }
+
+    .selected-folder-container.migration-screen {
+        width: 550px;
+        margin-bottom: 20px!important;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .transferito-container.transferito__choices {
+        width: 100%;
+    }
+}
+
+.selected-folder-container.transfer-progress-block h2 {
+    margin-bottom: 10px;
+}
+
+.transferito__help-container {
+    display: flex;
+}
+
+.mb0 {
+    margin-bottom: 0!important;
+}
+
+.mb5 {
+    margin-bottom: 5px!important;
+}
+
+.mb10 {
+    margin-bottom: 10px!important;
+}
+
+.mb15 {
+    margin-bottom: 15px!important;
+}
+
+.mb20 {
+    margin-bottom: 20px!important;
+}
+
+.mb30 {
+    margin-bottom: 30px!important;
+}
+
+.mb40 {
+    margin-bottom: 40px!important;
+}
+
+.mb45 {
+    margin-bottom: 45px!important;
+}
+
+.mt0 {
+    margin-top: 0!important;
+}
+
+.mt5 {
+    margin-top: 5px!important;
+}
+
+.mt10 {
+    margin-top: 10px!important;
+}
+
+.mt15 {
+    margin-top: 15px!important;
+}
+
+.mt20 {
+    margin-top: 20px!important;
+}
+
+.mt25 {
+    margin-top: 25px!important;
+}
+
+.mt30 {
+    margin-top: 30px!important;
+}
+
+.mt40 {
+    margin-top: 40px!important;
+}
+
+.mt50 {
+    margin-top: 50px!important;
+}
+
+.mt100 {
+    margin-top: 100px!important;
+}
+
+.mt200 {
+    margin-top: 200px!important;
+}
+
+.ml10 {
+    margin-left: 10px!important;
+}
+
+.ml20 {
+    margin-left: 20px!important;
+}
+
+.pt0 {
+    padding-top: 0!important;
+}
+
+.pb10 {
+    padding-bottom: 10px!important;
+}
+
+.pb20 {
+    padding-bottom: 20px!important;
+}
+
+.pl5 {
+    padding-left: 5px!important;
+}
+
+.pl10 {
+    padding-left: 10px!important;
+}
+
+.border-radius-top0 {
+    border-radius: 0 0 4px 4px!important;
+}
+
+.selected-folder_sub-directory {
+    display: none;
+    padding-left: 24px;
+    padding-top: 5px;
+}
+
+.selected-folder_plus {
+    cursor: pointer;
+    display: inline-block;
+    color: #949494;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: -1px;
+    margin-right: 13px;
+    left: 308px;
+}
+
+.save-details-row, .selected-folder-selection, .hide-detail-inputs {
+    display: none;
+}
+
+/** Empty API Keys **/
+.empty-api-keys {
+    width: 450px;
+    margin: 0 auto;
+    top:50%;
+    -webkit-transform: translate(0%, 50%);
+    transform: translate(0%, 50%);
+    position: absolute;
+}
+
+.add-keys-text {
+    margin-bottom: 25px;
+}
+
+.add-keys-icon {
+    font-size: 6.5em;
+    font-weight: bold;
+    padding: 29px 37px 24px 21px;
+    display: block;
+    border: 8px solid #cecece;
+    color: #cecece;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    opacity: .85;
+    margin: 0 auto 20px auto;
+}
+
+.add-keys-text p {
+    color: #8f9192;
+}
+
+.add-keys-title {
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.add-keys-content {
+    margin-top: 0;
+}
+
+.add-keys-button-container {
+    height: auto;
+    overflow: hidden;
+}
+
+.auto-height-container {
+    height: auto;
+    overflow: hidden;
+}
+
+/** Button **/
+.transferito-button.small-transferito-button {
+    padding: 11px 30px;
+    font-size: 0.9em;
+}
+
+.transferito-button {
+    border: 1px solid #2a77ff;
+    background: #2a77ff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fefefe;
+    display: block;
+    float: left;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.transferito-button:hover {
+    background: #155cd9;
+    color: #fefefe;
+}
+
+.transferito-button:disabled {
+    background: #6993df;
+    color: #fefefe;
+    border-color: #4980e2;
+}
+
+.transferito-left-button {
+    background: #fefefe;
+    color: #155cd9;
+    border-color: #155cd9;
+    float: right;
+}
+
+.transferito-button--floating {
+    position: absolute;
+    right: 10px;
+}
+
+/** UI **/
+.transferito-hide {
+    display: none!important;
+    /*visibility: hidden;*/
+}
+
+.transferito-form-element{
+    display: block;
+}
+
+.transfer-button-container {
+    margin-top: 20px;
+}
+
+.transferito-transfer-wrapper {}
+
+.transferito-transfer-wrapper label {
+    font-weight: bold;
+}
+
+.transferito-error__holder {
+    padding: 15px;
+    border: 2px solid #d85757;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #d85757;
+    font-weight: 500!important;
+    margin: 5px auto 10px!important;
+    line-height: 31px!important;
+    font-size: 17px!important;
+}
+
+@media screen and (max-width: 782px) {
+    .transferito-error__holder {
+        width: 80%;
+    }
+}
+
+/** Font **/
+
+.transferito__font--center {
+    text-align: center;
+}
+
+.transferito__font--smaller {
+    font-size: 11px;
+}
+
+.transferito__font--small {
+    font-size: 11px;
+}
+
+.transferito__font--small-2 {
+    font-size: 14px;
+}
+
+.transferito__font--small-medium {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.transferito__font--medium {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.transferito__font--large {
+    font-size: 40px;
+    line-height: 65px;
+}
+
+.transferito__font--bold {
+    font-weight: 400;
+}
+
+.transferito__font--bolder {
+    font-weight: 500;
+}
+
+.transferito__font--super-bold {
+    font-weight: 700;
+}
+
+/** Grid **/
+.transferito__row {
+    display: flex;
+}
+
+.transferito__row--width700 {
+    max-width: 700px;
+    width: 100%;
+}
+
+.transferito__col--full {
+    width: 100%;
+    padding: 5px 15px;
+    position: relative;
+}
+.transferito__col--full-more-padding {
+    padding: 5px 40px;
+}
+.transferito__col--half {
+    width: 50%;
+    padding: 5px 15px;
+}
+
+.transferito__choices {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/** Choice block **/
+.transferito__choice {
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    background: #fbfbfb;
+}
+
+.transferito__choice-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.transferito__choice-logo--cpanel {
+    background: url("../images/cpanel_logo.png") no-repeat;
+    height: 30px;
+    width: 140px;
+    background-size: contain;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.transferito__choice-logo--ftp {
+    background: url("../images/ftp_icon.png") no-repeat;
+    height: 70px;
+    width: 69px;
+    background-size: contain;
+}
+
+.transferito__choice-info {
+    line-height: 25px;
+    padding: 10px 50px;
+    text-align: center;
+}
+.transferito__choice-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+/** Loader **/
+.transferito-wp-loading-icon {
+    float: left;
+    margin-left: -2px;
+    margin-top: 0px;
+}
+
+.transferito-loading {
+    background: url("../images/loading.gif");
+    height: 16px;
+    width: 16px;
+    margin-bottom: -2px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+
+.transferito-notice {
+    /*width: 500px;*/
+    /*margin: 0 auto;*/
+}
+
+.transferito-page-loader {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto 0;
+    background: url('../images/page-loader.gif');
+}
+
+.transferito-migration-loader {
+    width: 500px;
+    height: 250px;
+    margin: 125px auto 0;
+    background: url('../images/transferito_loading.gif') no-repeat 0 -150px;
+}
+
+.transferito-page-loader-message {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0 5px;
+    font-weight: 300;
+}
+
+span.transferito_message {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.transfer-inprogress span.message {
+    font-weight: 600;
+}
+
+.transfer-inprogress_start {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.progress-separator-line {
+    width: 75%;
+    margin: 25px auto 0 auto;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.transferito-true {
+    color: #dfdfdf;
+    font-size: 22px;
+    margin-left: -5px;
+    margin-right: 6px;
+    margin-top: 1px;
+}
+
+.transferito-false {
+    color: red;
+    font-size: 28px;
+    margin-left: -5px;
+    margin-right: 6px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/*****************************************************************************************************
+ *
+ * Connection Test
+ *
+ ******************************************************************************************************/
+.connection-test {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /*border-top: 1px solid #f1f1f1;*/
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.connection-test__result {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    background: #f4f4f4;
+    padding: 6px 20px;
+    border: 1px solid #eaeaea;
+}
+
+.connection-test__info {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-right: 10px;
+    color: #878390;
+}
+
+.connection-test__icon {
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+}
+
+.connection-test__icon--success {
+    background: url('../images/icon__success.png') no-repeat;
+    background-size: contain;
+}
+
+.connection-test__icon--error {
+    background: url('../images/icon__error.png') no-repeat;
+    background-size: contain;
+}
+
+.connection-test__icon--warning {
+    background: url('../images/icon__warning.png') no-repeat;
+    background-size: contain;
+}
+
+/*************************************************************************************
+ *
+ * Directory Selection
+ *
+ *************************************************************************************/
+
+.ftp-path-container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.current-directory {
+    display: flex;
+    border: 2px solid #ebebeb;
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+    width: 486px;
+    justify-content: space-between;
+    padding: 7px 5px;
+}
+
+.current-directory__action {
+    margin-left: 20px;
+}
+
+.current-directory__breadcrumbs {
+    font-size: 13px;
+    color: #8b8594;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-left: 7px;
+    overflow: hidden;
+    height: 28px;
+}
+
+.breadcrumbs__title {
+    padding-right: 5px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.breadcrumbs__items {
+    margin: 0;
+    overflow-y: auto;
+}
+
+.breadcrumbs__items li {
+    float: left;
+    cursor: pointer;
+    padding: 4px 5px;
+    border: 1px solid white;
+    margin-bottom: 0;
+}
+
+.breadcrumbs__items li:hover {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    background-color: #f5f6f5;
+}
+
+.directory-selector {
+    border: 2px solid #ebebeb;
+    width: 496px;
+    min-height: 200px;
+    overflow-y: auto;
+    border-radius: 0 0 3px 3px;
+    margin-top: 0;
+    position: relative;
+}
+
+.directory-selector__row {
+    background: url('../images/icon__directory.png') no-repeat 10px 10px;
+    padding: 11px 10px 11px 40px;
+    font-weight: 500;
+    color: #8b8594;
+    margin-bottom: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.directory-selector__row:hover {
+    background-color: #f5f6f5;
+}
+
+.directory-selector__info {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.directory-selector__info--general {
+    text-align: center;
+    font-size: 19px!important;
+    font-weight: 500;
+    color: #8b8594;
+}
+
+.directory-selector__info--general-medium {
+    text-align: center;
+    font-size: 17px!important;
+    font-weight: 400;
+    color: #8b8594;
+}
+
+.directory-selector__info--error-title {
+    text-align: center;
+    font-size: 17px!important;
+    font-weight: 500;
+    color: #8b8594;
+}
+
+.directory-selector__info--error-message {
+    text-align: center;
+    font-size: 14px!important;
+    font-weight: 500;
+    color: #c9554b;
+}
+
+.directory-selector__loading {
+
+}
+
+.transferito-progressbar {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.transferito-progressbar__container {
+    width: 500px;
+    height: 20px;
+    border: 2px solid #7eb259;
+    border-radius: 35px;
+    padding: 1px;
+}
+
+.transferito-progressbar__fill {
+    width: 0;
+    height: 20px;
+    border-radius: 35px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+98 */
+    background: #b4e391; /* Old browsers */
+    background: -moz-linear-gradient(left,  #b4e391 0%, #61c419 98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #b4e391 0%,#61c419 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #b4e391 0%,#61c419 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#61c419',GradientType=1 ); /* IE6-9 */
+}
+
+.transferito-progressbar__info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    padding: 0 3px 0 7px;
+    overflow: hidden;
+    color: #797979;
+}
+
+.transferito-progressbar__label {
+    text-transform: uppercase;
+}
+
+.transferito-progressbar__percentage {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*************************************************************************************
+ *
+ * Responsive Youtube Video
+ *
+ *************************************************************************************/
+.transferito-video {
+    width: 90%;
+    max-width: 730px;
+    margin-top: 25px;
+}
+
+.transferito-video--center {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.transferito-video iframe {
+    width: 100%;
+    height: 380px;
+}
+
+/*************************************************************************************
+ *
+ * icon styling
+ *
+ *************************************************************************************/
+.transferito-icon--clickable {
+    cursor: pointer;
+}
+
+.transferito-icon--top-right {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+}
+
+.transferito-icon--top-margin {
+    margin-top: 2px;
+}
+
+.transferito-icon--top-middle {
+    position: absolute;
+    right: 33px;
+    top: 66px;
+}
+
+.transferito-icon--blue {
+    color: #047ad8;
+}
+
+.transferito-icon--red {
+    color: #dd1e1e;
+}
+
+.transferito-icon--green {
+    color: #33d921;
+}
+
+.transferito-icon--yellow {
+    color: #f5bc0f;
+}
+
+.transferito-icon--grey {
+    color: #3c434a;
+}
+
+.transferito-icon--light-grey {
+    color: #dadada;
+}
+
+/*************************************************************************************
+ *
+ * Password visibility
+ *
+ *************************************************************************************/
+
+.transferito__password-visibility {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #047ad8;
+}
+
+.transferito__password-visibility::before {
+    content: "\f070";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+}
+
+.transferito__password-visibility--visible::before {
+    content: "\f06e";
+}
+
+/*************************************************************************************
+ *
+ * Modal styling
+ *
+ *************************************************************************************/
+
+.transferito__modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.transferito__modal--without {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.transferito__modal--less {
+    background-color: transparent;
+}
+
+.transferito__modal--hide {
+    display: none;
+}
+
+.transferito__modal__inner {
+    background: white;
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #9E9E9E;
+    padding: 15px 22px;
+    position: relative;
+    margin-left: 160px;
+}
+
+.transferito__modal__inner--default {
+    width: auto;
+    background: transparent;
+    border: none;
+    margin-top: -150px;
+}
+
+.transferito__modal__content {
+    font-size: 14px;
+}
+
+
+.transferito__modal__content ul {
+
+}
+
+.transferito__modal__content ul li {
+
+}
+
+
+/*************************************************************************************
+ *
+ * Sub Navigation
+ *
+ *************************************************************************************/
+.transferito-nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transferito-nav__item {
+    margin: 0 10px;
+}
+
+.transferito-nav__item__label {
+    text-transform: uppercase;
+    color: #585c60;
+}
+
+.transferito-nav__item__indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #328ad0;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background: #3797e4;
+    color: white;
+}
+
+.transferito-nav__item__indicator--completed {
+    background: #62e242;
+    border: 2px solid #56d337;
+}
+
+.transferito-nav__item__indicator--completed i::before {
+    content: "\f00c"!important;
+}
+
+.transferito-nav__item__indicator--in-complete {
+    background: #fbfbfb;
+    color: #3797e4;
+}
+
+.transferito-nav__separator {
+    height: 3px;
+    background: #d6dadc;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: -21px;
+}
+
+.transferito-nav__separator--mt25 {
+    margin-top: -25px;
+}
+
+/*************************************************************************************
+ *
+ * Progress steps
+ *
+ *************************************************************************************/
+
+.transferito__progress-step {
+    display: flex;
+    border-bottom: 2px solid #f0f0f1;
+    padding: 15px;
+    background: #f4f4f4;
+    color: #c8c8c8;
+}
+
+.transferito__progress-step--active, .transferito__progress-step--completed  {
+    background: #ffffff;
+    color: #3c434a;
+}
+
+.transferito__progress-icon {
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+.transferito__progress-label {
+    text-align: left;
+    padding-top: 2px;
+}
+
+.transferito__progress-percentage {
+    margin-top: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    width: 26px;
+}
+
+.transferito__progress-step--active .transferito__progress-percentage  {
+    color: #6c6c6c;
+}
+
+.transferito-header {
+    height: 60px;
+    padding: 15px 20px;
+    background: #fbfbfb;
+    border-bottom: 2px solid #e0e0e0;
+    -webkit-box-shadow: 2px 2px 16px 1px #d7d7d7;
+    box-shadow: 2px 2px 16px 1px #d7d7d7;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transferito-header__logo {
+    background: url('../images/transferito_logo.png') no-repeat 0 0;
+    width: 200px;
+    height: 41px;
+    background-size: contain;
+}
+
+.transferito-header__actions {
+    display: flex;
+}
+
+
+/*************************************************************************************
+ *
+ * Article Link
+ *
+ *************************************************************************************/
+
+.transferito-article__link {
+    display: flex;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    border-radius: 7px;
+    background: #f9f9f9;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 3px;
+    cursor: pointer;
+}
+
+.transferito-article__link:hover {
+    background: #f6f6f6;
+}
+
+.transferito-article__link-text {
+    margin-left: 20px;
+}
